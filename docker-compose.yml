@@ -6,8 +6,8 @@ services:
     image: debezium/postgres:15-alpine
     environment:
       - POSTGRES_DATABASE=generic_repo_pattern_demo
-      - POSTGRES_USER=mrtglr
-      - POSTGRES_PASSWORD=mrt00**
+      - POSTGRES_USER=...
+      - POSTGRES_PASSWORD=...
     ports:
       - 5432:5432
     volumes:
