@@ -14,8 +14,7 @@ This repository serves as a template for implementing the Generic Repository Pat
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mrtglr/Generic-Repository-Pattern-Template.git
-   cd Generic-Repository-Pattern-Demo
+   docker build -t genericrepopatterndemo .
    ```
 
 2. Build and run the Docker container:
